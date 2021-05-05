@@ -1,0 +1,32 @@
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 15px;
+  padding: 25px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+}
+
+body {
+  top-margin: 25px;
+  background-color: #fafafa;
+}
+
+@media (max-width: 600px; ) {
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: overline underline;
+}
+
+footer {}
